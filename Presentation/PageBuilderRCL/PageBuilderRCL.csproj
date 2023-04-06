@@ -19,5 +19,13 @@
     <Folder Include="Configuration\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\PageBuilderRCL.Application.Shared\PageBuilderRCL.Application.Shared.csproj" />
+    <ProjectReference Include="..\..\Domain\PageBuilderRCL.Domain.Shared\PageBuilderRCL.Domain.Shared.csproj" />
+    <ProjectReference Include="..\..\Domain\PageBuilderRCL.Domain\PageBuilderRCL.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\PageBuilderRCL.Data.MongoDb\PageBuilderRCL.Data.MongoDb.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\PageBuilderRCL.Data\PageBuilderRCL.Data.csproj" />
+  </ItemGroup>
     
 </Project>

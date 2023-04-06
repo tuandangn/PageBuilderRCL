@@ -3,7 +3,7 @@ using PageBuilderRCL.Consts;
 
 namespace PageBuilderRCL.Controllers;
 
-[Area(AreaNames.PageBuilder)]
-public class PageBuilderBaseController : Controller
+[Area(AreaNames.PageBuilderRcl)]
+public class PageBuilderRclBaseController : Controller
 {
 }

@@ -2,5 +2,5 @@
 
 public static class AreaNames
 {
-    public const string PageBuilder = "PageBuilder";
+    public const string PageBuilderRcl = "PageBuilder";
 }

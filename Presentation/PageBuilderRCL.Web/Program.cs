@@ -21,7 +21,10 @@ var app = builder.Build();
     app.UseAuthorization();
     app.UsePageBuilder();
     app.MapControllerRoute(
-        name: "default",
+        name: "AreaDefault",
+        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+    app.MapControllerRoute(
+        name: "Default",
         pattern: "{controller=Home}/{action=Index}/{id?}");
 }
 app.Run();

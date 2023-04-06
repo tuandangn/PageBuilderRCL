@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.19.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\PageBuilderRCL.Domain.Shared\PageBuilderRCL.Domain.Shared.csproj" />
+    <ProjectReference Include="..\PageBuilderRCL.Data\PageBuilderRCL.Data.csproj" />
+  </ItemGroup>
+
 </Project>

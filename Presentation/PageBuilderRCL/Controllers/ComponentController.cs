@@ -2,7 +2,7 @@
 
 namespace PageBuilderRCL.Controllers;
 
-public sealed class ComponentController : PageBuilderBaseController
+public sealed class ComponentController : PageBuilderRclBaseController
 {
     public IActionResult Index() => View();
 }

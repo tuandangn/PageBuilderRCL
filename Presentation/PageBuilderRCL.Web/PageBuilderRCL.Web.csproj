@@ -10,4 +10,8 @@
     <ProjectReference Include="..\PageBuilderRCL\PageBuilderRCL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
+  </ItemGroup>
+
 </Project>

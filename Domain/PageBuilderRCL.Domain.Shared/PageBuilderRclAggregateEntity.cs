@@ -1,9 +1,9 @@
 ﻿namespace PageBuilderRCL.Domain.Shared;
 
 [Serializable]
-public class AggregateEntity
+public class PageBuilderRclAggregateEntity
 {
-    public AggregateEntity(Guid id)
+    public PageBuilderRclAggregateEntity(Guid id)
         => Id = id;
 
     public Guid Id { get; }

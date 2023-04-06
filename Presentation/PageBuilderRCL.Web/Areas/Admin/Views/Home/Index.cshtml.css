@@ -1,0 +1,8 @@
+﻿h1 {
+    font-size: 2em;
+    color: red;
+}
+
+.home-container {
+    min-height: calc(100vh - 12rem);
+}
